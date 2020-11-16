@@ -41,6 +41,7 @@ header
   .card-container{
     margin-top: 100px;
   }
+
   .image-box {width: 100%}
   .image-box img {
     align-items: center;
@@ -51,10 +52,15 @@ header
   .bio-box{
     background-color: white;
     width: 100%;
+    padding-left: -1px;
+  }
+  .params{
+    margin-left: -21px;
   }
 .center{
-  max-width: 80%;
-  margin: auto;
+  align-items: center;
+  display: table;
+  margin: 0 auto;
 }
 .card-container{
   padding-top: 320px;
@@ -74,6 +80,16 @@ header
     min-height: 250px;
     font-size: 1.2em;
    }
+  .white-box-projects-1,
+  .white-box-projects-2,
+  .white-box-projects-3{
+    min-width: 300px;
+    min-height: 250px;
+  }
+  .logo-header{
+    min-height: 97%;
+    min-width: 100%;
+  }
   .skill-4{
     min-width: 300px;
     min-height: 250px;
@@ -93,6 +109,9 @@ header
 .skill-6{
   display: none;
 }
+  .f-l-info{
+    align-items: center;
+  }
   .second-line-skill{
     min-height: 520px
   }
@@ -127,9 +146,13 @@ header
     max-height: 720px;
   }
 .f-l-projects{
-  max-height: 680px;
+  max-height: 790px;
 }
+  .main-box-projects{
+    max-height: 920px;
+  }
   .f-l-info{
+    margin: auto;
     max-height: 520px;
   }
   .main-box-info{
@@ -137,7 +160,20 @@ header
   }
 }
 @media only screen and (max-width: 405px) {
+  .center ul{
+    margin-left: -20px;
+  }
+  .icon-container{
+
+  }
   .white-box-education-1{
+    width: 100%;
+  }
+  .white-box-info-1,
+  .white-box-info-2{
+    margin:auto;
+  }
+  .f-l-info{
     width: 100%;
   }
   .first-line{
