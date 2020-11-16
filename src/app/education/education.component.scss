@@ -1,0 +1,67 @@
+.main-box{
+  max-height: 500px;
+  background-color: white;
+  border: 1px solid black;
+  -webkit-box-shadow: 0 0 10px 0 #e7e7e7;
+  -moz-box-shadow: 0 0 10px 0 #e7e7e7;
+  box-shadow: 0 0 10px 0 #e7e7e7;
+  padding: 20px;
+}
+.wrapper {
+  max-width: 930px;
+  margin: 0 auto;
+  border: 1px solid black;
+  align-items: center;
+}
+.container{
+  height: 100%;
+  border: 1px solid black;
+}
+.white-box-education-1,
+.white-box-education-2,
+.white-box-education-3,
+.white-box-education-4{
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 10px 0 #e7e7e7;
+  -moz-box-shadow: 0 0 10px 0 #e7e7e7;
+  box-shadow: 0 0 10px 0 #e7e7e7;
+}
+.white-box-education-1,
+.white-box-education-2,
+.white-box-education-3,
+.white-box-education-4,
+.white-box-education-5,
+.white-box-education-6{
+  width: 31.5%;
+  height: 217px;
+  float: left;
+  padding: 23px;
+  margin-bottom: 20px;
+}
+.white-box-education-4,
+.white-box-education-5,
+.white-box-education-6{
+  margin:0px;
+}
+.white-box-education-4{
+  width: 32%;
+}
+.main-wrapper{
+  margin-bottom: 50px;
+}
+.education-text{
+  text-align: center
+}
+.education-text:hover{
+  color: #125699;
+  cursor: context-menu;
+}
+.first-line,
+.second-line{
+  display: flex;
+  margin-left: 1px;
+  justify-content: space-between;
+}
+.second-line{
+  width: 98%;
+}

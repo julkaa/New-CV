@@ -1,0 +1,181 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+  padding: 20px;
+  min-height: 100%;
+  background-color: #faf7f5;
+  font-family: 'Space Grotesk', sans-serif;
+}
+.dark-mode {
+  color: white;
+  background-color: #09161c;
+}
+.dark-mode-toolbar{
+  background: rgb(6,15,19);
+  background: linear-gradient(90deg, rgba(6,15,19,1) 0%, rgba(17,40,51,1) 50%, rgba(6,15,19,1) 100%);
+color: blue;
+
+}
+.pull-right{
+  transform:translateX(calc(100% - 2px));
+}
+.dark-mode-bio {
+  color: white;
+  background-color: #182533;
+}
+@media only screen and (max-width: 930px) {
+  .card{
+    max-height: 40px;
+  }
+.wrapper,
+header
+{
+  width: 96%;
+  margin: auto;
+}
+}
+@media only screen and (max-width: 765px) {
+  .card-container{
+    margin-top: 100px;
+  }
+  .image-box {width: 100%}
+  .image-box img {
+    align-items: center;
+    display: table;
+    margin: 0 auto;
+    max-width: 345px;
+  }
+  .bio-box{
+    background-color: white;
+    width: 100%;
+  }
+.center{
+  max-width: 80%;
+  margin: auto;
+}
+.card-container{
+  padding-top: 320px;
+}
+  .white-box-education-1,
+  .white-box-education-2,
+   .white-box-education-3,
+   .white-box-education-4,
+  .skill-1,
+  .skill-2,
+  .skill-3,
+  .skill-5,
+  .white-box-info-1,
+  .white-box-info-2
+  {
+     min-width: 300px;
+    min-height: 250px;
+    font-size: 1.2em;
+   }
+  .skill-4{
+    min-width: 300px;
+    min-height: 250px;
+    font-size: 1.2em;
+  }
+  .white-box-education-5,
+  .white-box-education-6,
+  white-box-projects-4,
+  white-box-projects-5,
+  white-box-projects-6,
+  .white-box-info-3,
+  .white-box-info-4,
+  .white-box-info-5,
+  .white-box-info-6{
+    display: none;
+  }
+.skill-6{
+  display: none;
+}
+  .second-line-skill{
+    min-height: 520px
+  }
+  .first-line,
+  .second-line{
+  display: block;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+    background-color: #faf7f5;
+  }
+  .main-box-education{
+    min-height: 1100px;
+  }
+  .second-line{
+    min-width: 100%;
+  }
+  #pingbuller
+  {
+    font-size: 0.7em;
+  }
+  #pingbuller span{
+    font-size: 1em;
+  }
+  #logo{
+    font-size: 0.6em;
+  }
+  .second-line-projects{
+    max-height: 0px;
+  }
+  .main-box-projects{
+    max-height: 720px;
+  }
+.f-l-projects{
+  max-height: 680px;
+}
+  .f-l-info{
+    max-height: 520px;
+  }
+  .main-box-info{
+    max-height: 563px;
+  }
+}
+@media only screen and (max-width: 405px) {
+  .white-box-education-1{
+    width: 100%;
+  }
+  .first-line{
+    display: flex;
+  width: 100%;
+  }
+  .header
+  {
+    min-height: 120px;
+  }
+  .lighter-text{
+    font-size: 17px;
+  }
+  .bio-box ul{
+    padding-left: 0px;
+  }
+  .card-container{
+    padding-top: 340px;
+  }
+  .typingLine{
+    font-size: 17px;
+    margin-left: -9px;
+  }
+#icons{
+  margin-left: -35px;
+}
+  .params{
+    margin-left: -20px;
+  }
+  #pingbuller
+  {
+    font-size: 0.5em;
+  }
+  #pingbuller span{
+    font-size: 1em;
+  }
+  #logo{
+    font-size: 0.45em;
+  }
+}
+
