@@ -9,23 +9,6 @@ body{
   background-color: #faf7f5;
   font-family: 'Space Grotesk', sans-serif;
 }
-.dark-mode {
-  color: white;
-  background-color: #09161c;
-}
-.dark-mode-toolbar{
-  background: rgb(6,15,19);
-  background: linear-gradient(90deg, rgba(6,15,19,1) 0%, rgba(17,40,51,1) 50%, rgba(6,15,19,1) 100%);
-color: blue;
-
-}
-.pull-right{
-  transform:translateX(calc(100% - 2px));
-}
-.dark-mode-bio {
-  color: white;
-  background-color: #182533;
-}
 @media only screen and (max-width: 930px) {
   .card{
     max-height: 40px;
@@ -74,12 +57,16 @@ header
   .skill-3,
   .skill-5,
   .white-box-info-1,
-  .white-box-info-2
+  .white-box-info-2,
+  .white-box-info-3
   {
      min-width: 300px;
     min-height: 250px;
     font-size: 1.2em;
    }
+  .white-box-info-3{
+    margin-right: 15px;
+  }
   .white-box-projects-1,
   .white-box-projects-2,
   .white-box-projects-3{
@@ -97,10 +84,9 @@ header
   }
   .white-box-education-5,
   .white-box-education-6,
-  white-box-projects-4,
-  white-box-projects-5,
-  white-box-projects-6,
-  .white-box-info-3,
+  .white-box-projects-4,
+  .white-box-projects-5,
+  .white-box-projects-6,
   .white-box-info-4,
   .white-box-info-5,
   .white-box-info-6{
@@ -153,10 +139,10 @@ header
   }
   .f-l-info{
     margin: auto;
-    max-height: 520px;
+    max-height: 790px;
   }
   .main-box-info{
-    max-height: 563px;
+    max-height: 920px;
   }
 }
 @media only screen and (max-width: 405px) {
@@ -170,7 +156,8 @@ header
     width: 100%;
   }
   .white-box-info-1,
-  .white-box-info-2{
+  .white-box-info-2,
+  .white-box-info-3{
     margin:auto;
   }
   .f-l-info{
